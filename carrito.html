@@ -24,32 +24,6 @@
             <span class="navbar-toggler-icon"></span>
           </button>
 
-          <!--
-
-
-            <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
-                        </div>
-                        <div class="modal-body">
-                            Tu carrito esta vacío!
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
-                            nos deberia llevar al index
-                            <button href="index.html" type="button" class="btn btn btn-outline-warning btn-lg">Continuar comprando</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-          -->
 
 
           <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
@@ -77,9 +51,33 @@
                   </ul>
                 </li>
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle fs-4" href="#" id="navbarDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
+                  <a class="nav-link fs-4" href="#" id="navbarDropdown" role="button"
+                    data-bs-toggle="modal" data-bs-target="#exampleModal" aria-expanded="false">
                     <i class="fa-solid fa-cart-shopping"></i>
+
+                    <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+                      <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title" id="exampleModalLabel">Carrito de Compras</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                aria-label="Cerrar"></button>
+                            </div>
+                            <div class="modal-body">
+                              Tu carrito esta vacío!
+                            </div>
+                            <div class="modal-footer">
+                              <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cerrar</button>
+                              
+                              <button href="index.html" type="button"
+                                class="btn btn btn-outline-warning btn-lg">Continuar comprando</button>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
 
                   </a>
                   <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
